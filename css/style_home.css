@@ -1,0 +1,34 @@
+@charset "utf-8";
+@author "Christian da Silva Alexandre";
+
+*{
+	font-family:tahoma;
+}
+body{
+	background-color:#C0C0C0;
+}
+p{
+	font-size: 20px;
+}
+h1, h2, h3{
+	text-align:center;
+	color:black;
+}
+#Sabers, #Archers, #Lancers, #Riders, #Casters, #Assassins, #Berserkers, #Especiais{
+	width: 1280px;
+	height: 600px;
+	border: 1px solid #111;
+	border-radius: 10px;
+	margin: 10px auto;
+	background-color: #757584;
+	display: flex;
+	justify-content: space-around;
+}
+
+.character{
+	width: 350px;
+	height: 495px;
+	float: center;
+	margin: 10px;
+	text-align:center;
+}
